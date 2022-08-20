@@ -30,8 +30,48 @@ package mypackage.com;
 import java.util.Scanner;
 
 public class SumOfSubString {
-	public static void main(String[] args) {
+	static int toDigit(char ch)
+	{
+	  return (ch - '0');
+	}
+	 
+	// Returns sum of all subString of num
+	static int sumOfSubStrings(String num)
+	{
+	  int n = num.length();
+	 
+	  // Storing prev value
+	  int prev = toDigit(num.charAt(0));
+	 
+	  int res = prev;
+	 
+	  int current = 0;
+	 
+	  // SubStrings sum upto current index
+	  // loop over all digits of String
+	  for (int i = 1; i < n; i++)
+	  {
+	    int numi = toDigit(num.charAt(i));
+	 
+	    // Update each sumofdigit
+	    // from previous value
+	    current = (i + 1) * numi + 10 * prev;
+	 
+	    // Add current value to the result
+	    res += current;
+	     
+	    // Update previous
+	    prev = current;
+	  }
+	  return res;
+	}
+	 
+	// Driver code to test above methods
+	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
+		String num = sc.nextLine();
+		System.out.print(sumOfSubStrings(num) + "\n");
+/*		Scanner sc = new Scanner(System.in);
 		String num = sc.nextLine();
 
 		System.out.println(sumOfSubstrings(num));
@@ -52,6 +92,8 @@ public class SumOfSubString {
 			result += sumofdigit[i];
 		}
 
-		return result;
+		return result; 
+		*/
+		
 	}
 }
