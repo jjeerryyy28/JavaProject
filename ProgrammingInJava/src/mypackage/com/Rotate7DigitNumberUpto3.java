@@ -15,12 +15,12 @@ public class Rotate7DigitNumberUpto3 {
 		 */
 		
 		//String
-		 int x=sc.nextInt();
-         sc.close();
-         String s=String.valueOf(x);
-         String sub=s.substring(s.length()-3);
-         int num=Integer.parseInt(sub);
-         System.out.print(num+s.substring(0,s.length()-3));
+		int x=sc.nextInt();
+		sc.close();
+         	String s=String.valueOf(x);
+         	String sub=s.substring(s.length()-3);
+         	int num=Integer.parseInt(sub);
+	        System.out.print(num+s.substring(0,s.length()-3));
 
 		
 		
