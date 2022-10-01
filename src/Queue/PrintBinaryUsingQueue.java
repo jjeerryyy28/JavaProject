@@ -8,6 +8,7 @@ public class PrintBinaryUsingQueue {
     public static void main(String[] args){
         Queue<String> q=new LinkedList<>();
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
         if(n>0) {
             q.add("1");

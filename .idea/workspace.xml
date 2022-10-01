@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21e3e522-940f-416b-9470-54e0513a43f3" name="Changes" comment="Java Project @ATM_Machine">
-      <change afterPath="$PROJECT_DIR$/src/Queue/PrintBinaryUsingQueue.java" afterDir="false" />
+    <list default="true" id="21e3e522-940f-416b-9470-54e0513a43f3" name="Changes" comment="Binary Number">
       <change afterPath="$PROJECT_DIR$/src/Queue/QueueUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664132332487</updated>
     </task>
+    <task id="LOCAL-00001" summary="Binary Number">
+      <created>1664643380523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664643380523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,7 +68,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -70,6 +88,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Binary Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Number" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
